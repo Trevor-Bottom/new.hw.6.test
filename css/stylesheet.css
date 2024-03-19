@@ -1,0 +1,139 @@
+/*nav configuration*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+nav ul li{
+    float: left;
+}
+nav li a{
+    display: block;
+    color: gold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav li a:hover{
+    background-color: #111;
+}
+
+
+/* Picture caption & footer formatting using a "CLASS" */
+.caption{
+    font-size: 0.40cm;
+    text-align: center;
+    color: #000;
+}
+
+
+/* Centering and formatting pictures using a "CLASS" */
+.photo{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.photo1{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 2.5%;
+}
+
+
+
+/* Using ID to format the main section */
+#container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+
+/* Using Box model with sections */
+section{
+    border-bottom: #000 3px solid;
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+/* Using ID to format the header */
+#header{
+    background-color: #333;
+    color: gold;
+    text-align: center;
+    padding-bottom: 2px;
+    padding-top: 20px;
+    border-bottom: #D9D9D9 3px solid;
+    font-size: 25px;
+    line-height: .2cm;
+}
+
+/* Changing background color */
+body{
+    background-color: #D9D9D9;
+}
+
+
+
+/* Sports teams formatting */
+.sports{
+    line-height: 0.05cm;
+    font-size: .55cm;
+    text-decoration:underline;
+}
+
+.teamindent{
+    padding-left: 5%;
+}
+
+.divsionindent{
+    padding-left: 2.5%;
+    line-height:.10cm;
+}
+
+/* Formatting the table */
+table, th, td{
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .5%;
+    font-weight: 900;
+}
+
+table{
+    width: 50%;
+}
+
+th{
+    background-color: #333;
+    color: gold;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+/* centering table and caption*/
+.tablecenter{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* table title*/
+#tabletitle{
+    font-size: 30px;
+    margin-bottom: 0cm;
+    margin-top: 1.5cm;
+}
